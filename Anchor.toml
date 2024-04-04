@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+rust_solana = "EwE8oxvjwaxEQBccRRJaYk7jov79j1h6NmC6P665UWM3"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/mzzqq/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
